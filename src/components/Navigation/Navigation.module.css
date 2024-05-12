@@ -1,0 +1,30 @@
+.header {
+  background-color: #29f2f283;
+  border: 1px solid rgba(0, 0, 0, 0.141);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.562);
+  border-radius: 4px;
+  padding: 4px 6px 6px 6px;
+  transition: all 400ms ease-out;
+}
+
+.link:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.active {
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 20px 20px 10px -16px inset;
+}

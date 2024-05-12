@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid rgb(38, 89, 92);
+  border-radius: 6px;
+  width: 180px;
+  height: 360px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.item > img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+h4 {
+  margin: 0 auto 5px;
+}
+
+.item > P {
+  margin: 0 auto 5px;
+}

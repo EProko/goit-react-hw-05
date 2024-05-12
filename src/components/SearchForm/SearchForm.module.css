@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.input {
+  width: 300px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.form > input {
+  padding-left: 10px;
+}

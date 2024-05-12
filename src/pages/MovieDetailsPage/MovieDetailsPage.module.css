@@ -1,0 +1,29 @@
+.listLink {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  display: inline-flex;
+  padding: 10px;
+  transition: all 400ms ease-out;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 0.866);
+}
+
+.active {
+  background-color: #13dce0a1;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.866);
+}
+
+.poster {
+  border-radius: 6px;
+}
+
+.conainer {
+  display: flex;
+  gap: 30px;
+}
