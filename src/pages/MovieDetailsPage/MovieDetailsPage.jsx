@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { useEffect, useRef, useState } from "react";
 import { NavLink, Outlet, useLocation, useParams } from "react-router-dom";
 import { getDetailsMovie } from "../../HTTP-requests.js";
